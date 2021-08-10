@@ -1,0 +1,408 @@
+/*메인페이지  */
+.main-img {
+	top: 0px;
+	display: block;
+	width: 100%;
+	height: 100%;
+	filter: blur(2px);
+}
+
+.img-container {
+	top: 0px;
+	display: felx;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	height: 845px;
+	background-color: gold;
+	position: fixed;
+	color: #ffffff;
+}
+
+* {
+	font-family: "Do Hyeon", sans-serif;
+}
+
+.bg {
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7); /*살짝 투명한 검정으로 배경색*/
+	position: absolute; /*다른 요소들 위로 겹쳐질 수 있게함*/
+}
+
+.text-box {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.text-box span {
+	font-size: 4rem;
+	color: rgb(226, 226, 226);
+}
+
+.text-box span:first-child {
+	font-size: 7rem;
+	color: rgb(223, 201, 201);
+}
+
+.button-box {
+	margin-left: 40%;
+	display: flex;
+	display: flex;
+	align-items: center;
+	height: 50%;
+	justify-content: center;
+}
+
+.button-box div {
+	top: 0px;
+	width: 50%;
+	height: 90%;
+	position: static;
+	padding-left: 30%;
+}
+
+.button-box div:nth-child(2) {
+	padding: 0;
+}
+
+.button-box div:nth-child(2) img {
+	padding-left: 0;
+	padding-bottom: 10%;
+	width: 45%;
+	height: 65%;
+}
+
+.mobile-main-img {
+	display: none;
+}
+
+@media ( max-width : 700px) {
+	.text-box span:first-child {
+		font-size: 3rem;
+	}
+	.text-box span:nth-child(2) {
+		font-size: 2rem;
+	}
+	.button-box div {
+		padding-left: 10%
+	}
+	.button-box div:nth-child(2) img {
+		width: 100%;
+		height: 35%;
+	}
+	.button-box {
+		margin-left: 30%;
+	}
+	.logo-box div:nth-child(2) img {
+		padding: 20px 10px !important;
+	}
+	.logo-box div {
+		width: 30% !important;
+	}
+	.main-img {
+		display: none;
+	}
+	.mobile-main-img {
+		display: block;
+		height: 100%;
+	}
+}
+
+/*메인페이지 끝 */
+
+/* 상단 로고 */
+.logo-box {
+	display: flex;
+	flex-direction: row;
+}
+
+.logo-box div {
+	top: 0px;
+	width: 15%;
+	height: 100%;
+}
+
+.logo-box div:nth-child(1) img {
+	padding-top: 10px;
+}
+
+.logo-box div:nth-child(2) img {
+	height: 100%;
+	padding: 30px 10px;
+}
+
+.button-content {
+	position: relative;
+}
+
+.button-text {
+	position: absolute !important;
+}
+
+/* 동영상 리스트 페이지 */
+.content-container {
+	width: 65%;
+	height: 70%;
+	margin: auto;
+	margin-top: 3%;
+}
+
+.content-box {
+	display: flex;
+	background-color: #E2BCB7;
+	width: 90%;
+	height: 90%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin: auto;
+	position: relative;
+}
+
+.content {
+	background-color: seagreen;
+	width: 30%;
+	height: 35%;
+	border: solid black;
+}
+
+.content-text {
+	color: #343d34;
+	font-size: 2.5rem;
+	position: absolute;
+}
+.content a {
+  height: 100%;
+  width: 100%;
+}
+.content a img {
+  height: 100%;
+  width: 100%;
+}
+
+.content-text {
+  color: #343d34;
+  font-size: 2.5rem;
+
+  position: absolute;
+}
+
+/* 무단투기 테스트 */
+.form-1>fieldset {
+	display: none;
+}
+
+.form-1>fieldset.active {
+	display: block;
+}
+
+.form-container {
+	display:flex;
+	width: 60%;
+	height: 70%;
+	justify-content: center;
+	font-size: 1.8rem;
+	margin: auto;
+	color: #4A503D;
+}
+
+.form-box {
+	display: flex;
+	margin-top: 10%;
+	width: 70%;
+	height: 70%;
+	background-color: #FAF2DA;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	border: solid black 10px;
+}
+
+.form-box-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	width: 95%;
+	height: 95%;
+	background: #FAF2DA;
+}
+
+.result-box img {
+	height: 80%;
+}
+
+.btn-box {
+	display: flex;
+		justify-content: space-around;
+		margin-top: 13%;
+}
+	.q-text {
+		font-size:1.6rem;
+	}
+	.a-text{
+	font-size:1.6rem;
+	}
+@media ( max-width : 700px) {
+	.test-main-container {
+		width: 70%;
+		margin-top: 18%;
+	}
+	.test-main-img {
+		width: 78%;
+	}
+	.form-container {
+		width: 70%;
+		margin-top: 18%;
+	}
+	.btn-box {
+		justify-content: space-around;
+		margin-top: 13%;
+		
+	}
+	.q-text {
+		font-size:1.2rem;
+	}
+	.a-text{
+	font-size:1.2rem;
+	}
+}
+
+
+.button div{
+	height: 100%;
+}
+.button div a{
+	height: 30%;
+}
+.pre-button{
+	order:-1;
+	display:flex;
+	align-items: center;
+}
+.next-button{
+	display:flex;
+
+	align-items: center;
+}
+.pre{
+	order: -1;
+}
+
+
+/* 무단투기 테스트 끝 */
+
+/* 테스트 시작페이지 */
+.test-main-container {
+	display: flex;
+	background-color: #8E9775;
+	width: 40%;
+	margin: auto;
+	height: 50%;
+	flex-direction: column;
+	margin-top: 4%;
+}
+
+.test-main-img-box {
+	display: flex;
+	width: 100%;
+	height: 60%;
+	justify-content: center;
+}
+
+.test-main-img {
+	margin-top: 3%;
+	width: 60%;
+	height: 90%;
+	background-color: #FAF2DA;
+	color: #4A503D;
+}
+
+.test-btn {
+	background-color: #87CEEB;
+	padding: 12px 30px;
+	margin: 8px;
+	border: none;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	border-radius: 3px;
+}
+
+.test-btn:hover {
+	background-color: #4169E1;
+	color: white;
+}
+
+.test-main-text-box {
+	display: flex;
+	height: 25%;
+	background-color: gold;
+	justify-content: center;
+	color: #4A503D;
+}
+
+.test_btn_box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media ( max-width : 700px) {
+	.test-main-container {
+		width: 70%;
+		margin-top: 18%;
+	}
+	.test-main-img {
+		width: 78%;
+	}
+}
+
+/* 테스트 시작페이지 끝 */
+
+/*비디오 보여주는 페이지*/
+
+.video-container {
+  display: flex;
+  width: 100%;
+  height: 80%;
+
+  justify-content: center;
+}
+.video-box {
+  display: flex;
+  position: relative;
+  width: 50%;
+  height: 70%;
+  padding-bottom: 30%;
+}
+
+#video {
+  position: absolute;
+  width: 100%; /* 부모에 맞게 꽉 채운다. */
+  height: 100%;
+}
+.back-button {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 18%;
+  padding-bottom: 1%;
+}
+.back-button a {
+  width: 7%;
+  height: 7%;
+}
+
+
+/*비디오 보여주는 페이지 끝*/

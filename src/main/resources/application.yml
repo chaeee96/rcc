@@ -1,0 +1,36 @@
+server:
+  port: 8027
+spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: 1ouorrr@gmail.com
+    password: sadppakfrnqfbjar
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  datasource:
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    #driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:log4jdbc:mysql://127.0.0.1:3306/insta?useUnicode=true&characterEncoding=utf8&autoReconnect=true&serverTimezone=Asia/Seoul&useOldAliasMetadataBehavior=true&zeroDateTimeNehavior=convertToNull
+    username: sbsst
+    password: sbs123414
+custom:
+  siteMainUri: http://localhost:8024/
+  siteName: 인스타
+  emailFrom: no-reply@localhost
+  emailFromName: 인스타알림봇
+  logging:
+    dir: log
+    level: debug
