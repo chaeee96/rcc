@@ -6,6 +6,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+
 <!-- 모바일에서 사이트가 PC에서의 픽셀크기 기준으로 작동하게 하기(반응형 하려면 필요) -->
 <meta name="viewport"
 	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -35,6 +36,7 @@
 <title>Document</title>
 </head>
 <body>
+	<!-- 퀴즈페이지 이미지 부분입니다. -->
 	<div class="img-container">
 		<div>
 			<img class="main-img" src="https://ifh.cc/g/Sb439x.png" alt="" />
@@ -49,7 +51,7 @@
 				</div>
 
 
-				
+
 
 				<div class="form-container">
 					<div class="form-box">
@@ -60,25 +62,167 @@
 								<div class="form-content-box">
 									<div class="hidden result-box">
 										<div class="hidden">
-											<span>0개 : 레몬</span><img
-												src="data:image/jpeg;base64,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"
-												alt="" />
+											마카롱
+
+											<div class="result-boxx">
+												<div class="result-img-box">
+													<img class="result-img" src="https://ifh.cc/g/DeolTF.jpg"
+														alt="" />
+												</div>
+
+
+
+
+												<div class="result-txt">당신은 정확한 요리법에 따라 만들어야 하는 마카롱처럼
+													올바른 쓰레기 배출법에 따라 열심히 분리수거 해주고 있는 사람이군요!</div>
+
+											</div>
+
+
+
 										</div>
 										<div class="hidden">
-											1개 : 사과<img
-												src="https://blog.kakaocdn.net/dn/cB6WvN/btq1qOKSJlP/VwXsD9tcnB2JvkU1dOPSL0/img.jpg"
-												alt="" />
+											마카롱
+											<div class="result-boxx">
+												<div class="result-img-box">
+													<img class="result-img" src="https://ifh.cc/g/DeolTF.jpg"
+														alt="" />
+												</div>
+
+												<div class="result-txt">당신은 정확한 요리법에 따라 만들어야 하는 마카롱처럼
+													올바른 쓰레기 배출법에 따라 열심히 분리수거 해주고 있는 사람이군요!</div>
+
+											</div>
+
 										</div>
 										<div class="hidden">
-											2개 : 수박<img
-												src="https://jhealthfile.joins.com/photo//2019/07/04/13415f018bd19.jpg"
-												alt="" />
+											감초
+											<div class="result-boxx">
+												<div class="result-img-box">
+													<img class="result-img" src="https://ifh.cc/g/lJ61OK.jpg"
+														alt="" />
+												</div>
+
+
+
+												<div class="result-txt">당신은 어디에든 빠지지 않는 감초처럼 쓰레기 배출법을
+													지키려고 노력하지만 귀찮은 일은 안 하는 대다수의 사람이군요!</div>
+
+											</div>
 										</div>
 										<div class="hidden">
-											3개 : 포도<img
-												src="http://menu.mt.co.kr/moneyweek/thumb/2015/09/08/06/2015090811048015555_1.jpg"
-												alt="" />
+											감초
+											<div class="result-boxx">
+												<div class="result-img-box">
+													<img class="result-img" src="https://ifh.cc/g/lJ61OK.jpg"
+														alt="" />
+												</div>
+
+												<div class="result-txt">당신은 어디에든 빠지지 않는 감초처럼 쓰레기 배출법을
+													지키려고 노력하지만 귀찮은 일은 안 하는 대다수의 사람이군요!</div>
+
+											</div>
 										</div>
+										<div class="hidden">
+											감초
+											<div class="result-boxx">
+												<div class="result-img-box">
+													<img class="result-img" src="https://ifh.cc/g/lJ61OK.jpg"
+														alt="" />
+												</div>
+
+												<div class="result-txt">당신은 어디에든 빠지지 않는 감초처럼 쓰레기 배출법을
+													지키려고 노력하지만 귀찮은 일은 안 하는 대다수의 사람이군요!</div>
+
+											</div>
+										</div>
+										<div class="hidden">
+											감초
+											<div class="result-boxx">
+												<div class="result-img-box">
+													<img class="result-img" src="https://ifh.cc/g/lJ61OK.jpg"
+														alt="" />
+												</div>
+
+												<div class="result-txt">당신은 어디에든 빠지지 않는 감초처럼 쓰레기 배출법을
+													지키려고 노력하지만 귀찮은 일은 안 하는 대다수의 사람이군요!</div>
+
+											</div>
+										</div>
+										<div class="hidden">
+											마라탕
+											<div class="result-boxx">
+												<div class="result-img-box">
+													<img class="result-img" src="https://ifh.cc/g/KGGthm.jpg"
+														alt="" />
+												</div>
+
+
+												<div class="result-txt">당신은 온갖 재료를 넣어 먹는 마라탕처럼 쓰레기도 온갖
+													종류를 넣어 혼합배출하는 사람이군요!</div>
+
+											</div>
+										</div>
+										<div class="hidden">
+											마라탕
+											<div class="result-boxx">
+												<div class="result-img-box">
+													<img class="result-img" src="https://ifh.cc/g/KGGthm.jpg"
+														alt="" />
+												</div>
+
+												<div class="result-txt">당신은 온갖 재료를 넣어 먹는 마라탕처럼 쓰레기도 온갖
+													종류를 넣어 혼합배출하는 사람이군요!</div>
+
+											</div>
+										</div>
+										<div class="hidden">
+											마라탕
+											<div class="result-boxx">
+												<div class="result-img-box">
+													<img class="result-img" src="https://ifh.cc/g/KGGthm.jpg"
+														alt="" />
+												</div>
+
+												<div class="result-txt">당신은 온갖 재료를 넣어 먹는 마라탕처럼 쓰레기도 온갖
+													종류를 넣어 혼합배출하는 사람이군요!</div>
+
+											</div>
+										</div>
+
+
+										<div class="hidden">
+											부먹
+											<div class="result-boxx">
+
+												<div class="result-img-box">
+													<img class="result-img" src="https://ifh.cc/g/MJJcIU.jpg"
+														alt="" />
+												</div>
+
+
+												<div class="result-txt">당신은 다른 사람의 의견을 무시하고 소스를 부어버리는
+													부먹 탕수육처럼 쓰레기를 어떻게 배출하든 관심이 없는 사람이군요!</div>
+
+											</div>
+										</div>
+
+
+										<div class="hidden">
+											부먹
+											<div class="result-boxx">
+
+												<div class="result-img-box">
+													<img class="result-img" src="https://ifh.cc/g/MJJcIU.jpg"
+														alt="" />
+												</div>
+												<div class="result-txt">당신은 다른 사람의 의견을 무시하고 소스를 부어버리는
+													부먹 탕수육처럼 쓰레기를 어떻게 배출하든 관심이 없는 사람이군요!</div>
+
+											</div>
+										</div>
+
+
 
 
 									</div>
@@ -87,33 +231,156 @@
 										onsubmit="Form1__next(this); return false;">
 										<fieldset class="q1-fieldset active">
 											<legend>질문 1</legend>
-											<div class="q-text">질문 1 입니다.</div>
-											<label> <input type="radio" name="q1" value="Y" /> <span
-												class="a-text">예</span>
-											</label> <label> <input type="radio" name="q1" value="N" />
-												<span class="a-text">아니오</span>
-											</label>
+											<div class="q-text">나는 전 남친(여친)이 준 곰인형을 그냥 쓰레기 더미에 버릴
+												것이다.</div>
+
+											<div class="result-box">
+												<label class="qq-text"> <input type="radio"
+													name="q1" value="Y" /> <span class="a-text">예</span>
+												</label> <label> <input type="radio" name="q1" value="N" />
+													<span class="a-text">아니오</span>
+												</label>
+											</div>
+
 										</fieldset>
 
-										<fieldset class="q2-fieldset">
+										<fieldset class="q2-fieldset q-text">
 											<legend>질문 2</legend>
-											<div class="q-text">질문 2 입니다.</div>
-											<label> <input type="radio" name="q2" value="Y" /> <span
-												class="a-text">예</span>
-											</label> <label> <input type="radio" name="q2" value="N" />
-												<span class="a-text">아니오</span>
-											</label>
+											<div class="q-text">나는 다 마신 음료수 캔을 찌그러뜨려서 축구를 한 적이 있다.</div>
+
+											<div class="result-box">
+												<label> <input type="radio" name="q2" value="Y" />
+													<span class="a-text">예</span>
+												</label> <label> <input type="radio" name="q2" value="N" />
+													<span class="a-text">아니오</span>
+												</label>
+											</div>
+
 										</fieldset>
 
-										<fieldset class="q3-fieldset">
+										<fieldset class="q3-fieldset q-text">
 											<legend>질문 3</legend>
-											<div class="q-text">질문 3 입니다.</div>
-											<label class="a-text"> <input type="radio" name="q3"
-												value="Y" /> <span class="a-text">예</span>
-											</label> <label class="a-text"> <input type="radio" name="q3"
-												value="N" /> <span class="a-text">아니오</span>
-											</label>
+											<div class="q-text">나는 배달음식 마니아라 플라스틱 쓰레기가 많이 나온다.</div>
+											<div class="result-box">
+												<label class="a-text"> <input type="radio" name="q3"
+													value="Y" /> <span class="a-text">예</span>
+												</label> <label class="a-text"> <input type="radio"
+													name="q3" value="N" /> <span class="a-text">아니오</span>
+												</label>
+
+											</div>
+
+
 										</fieldset>
+
+										<fieldset class="q4-fieldset q-text">
+											<legend>질문 4</legend>
+											<div class="q-text">나는 눈치를 많이 보는 사람이라 늦은 밤에만 쓰레기를 버린다.
+											</div>
+											<div class="result-box">
+
+												<label class="a-text"> <input type="radio" name="q4"
+													value="Y" /> <span class="a-text">예</span>
+												</label> <label class="a-text"> <input type="radio"
+													name="q4" value="N" /> <span class="a-text">아니오</span>
+												</label>
+											</div>
+
+										</fieldset>
+
+										<fieldset class="q5-fieldset q-text">
+											<legend>질문 5</legend>
+											<div class="q-text">나는 씹던 껌을 그냥 바닥에 뱉을 수 있는 용기 있는 사람이다.
+											</div>
+
+											<div class="result-box">
+
+												<label class="a-text"> <input type="radio" name="q5"
+													value="Y" /> <span class="a-text">예</span>
+												</label> <label class="a-text"> <input type="radio"
+													name="q5" value="N" /> <span class="a-text">아니오</span>
+												</label>
+											</div>
+
+										</fieldset>
+
+										<fieldset class="q6-fieldset q-text">
+											<legend>질문 6</legend>
+											<div class="q-text">나는 썸남(썸녀)이 일반쓰레기에 재활용을 섞어버리는 모습을 봐도
+												썸이 깨지지 않는다.</div>
+
+											<div class="result-box">
+												<label class="a-text"> <input type="radio" name="q6"
+													value="Y" /> <span class="a-text">예</span>
+												</label> <label class="a-text"> <input type="radio"
+													name="q6" value="N" /> <span class="a-text">아니오</span>
+												</label>
+											</div>
+
+										</fieldset>
+
+										<fieldset class="q7-fieldset q-text">
+											<legend>질문 7</legend>
+											<div class="q-text">나는 음식 주문할 때 “모자란 것보다 남는 게 좋지!” 하면서
+												많이 시키고 남기는 편이다.</div>
+
+											<div class="result-box">
+												<label class="a-text"> <input type="radio" name="q7"
+													value="Y" /> <span class="a-text">예</span>
+												</label> <label class="a-text"> <input type="radio"
+													name="q7" value="N" /> <span class="a-text">아니오</span>
+												</label>
+											</div>
+
+										</fieldset>
+
+										<fieldset class="q8-fieldset q-text">
+											<legend>질문 8</legend>
+											<div class="q-text">나는 남자친구(여자친구)가 내 자취방에 놀러 와서 갈아준
+												형광등을 유리로 분류해서 버린다.</div>
+
+											<div class="result-box">
+												<label class="a-text"> <input type="radio" name="q8"
+													value="Y" /> <span class="a-text">예</span>
+												</label> <label class="a-text"> <input type="radio"
+													name="q8" value="N" /> <span class="a-text">아니오</span>
+												</label>
+
+											</div>
+
+										</fieldset>
+
+										<fieldset class="q9-fieldset q-text">
+											<legend>질문 9</legend>
+											<div class="q-text">나는 무단투기를 한 후 쓰레기통이 없어서 어쩔 수 없었다고
+												자기합리화를 한다.</div>
+
+											<div class="result-box">
+												<label class="a-text"> <input type="radio" name="q9"
+													value="Y" /> <span class="a-text">예</span>
+												</label> <label class="a-text"> <input type="radio"
+													name="q9" value="N" /> <span class="a-text">아니오</span>
+												</label>
+											</div>
+
+										</fieldset>
+
+										<fieldset class="q10-fieldset ">
+											<legend>질문 10</legend>
+											<div class="q-text">나는 이별을 한 직후 그냥 큰 봉지에 전 애인이 준 쓰레기를 다
+												모아서 버려 버린다.</div>
+
+											<div class="result-box">
+												<label class="a-text q-text"> <input type="radio"
+													name="q10" value="Y" /> <span class="a-text">예</span>
+												</label> <label class="a-text"> <input type="radio"
+													name="q10" value="N" /> <span class="a-text">아니오</span>
+												</label>
+											</div>
+
+										</fieldset>
+
+
 
 										<div class="btn-box">
 											<button onclick="Form1__prev(this);" type="button"
@@ -130,20 +397,23 @@
 					</div>
 
 
+					<div class="test-button-box">
+						<div class="hidden result-box pre button">
+							<div class="pre-button">
+								<a href="/usr/content/mainTestForm"><img
+									src="https://ifh.cc/g/0rWDf4.png" alt="" /></a>
+							</div>
+						</div>
 
-
-					<div class="hidden result-box pre button">
-						<div class="pre-button">
-							<a href=""><img src="https://ifh.cc/g/nh3C0Z.png" alt="" /></a>
+						<div class="hidden result-box next button">
+							<div class="next-button">
+								<a href="/usr/content/list"><img
+									src="https://ifh.cc/g/SRQhRJ.png" alt="" /></a>
+							</div>
 						</div>
 					</div>
 
-					<div class="hidden result-box next button">
-						<div class="next-button">
-							<a href="/usr/content/list"><img
-								src="https://ifh.cc/g/SRQhRJ.png" alt="" /></a>
-						</div>
-					</div>
+
 				</div>
 			</div>
 		</div>

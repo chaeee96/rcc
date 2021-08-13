@@ -32,41 +32,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Document</title>
 </head>
- <body>
-    <div class="img-container">
-      <div>
-        <img class="main-img" src="https://ifh.cc/g/Sb439x.png" alt="" />
-        <div class="bg">
-          <div class="logo-box">
-            <div>
-              <img src="https://ifh.cc/g/oLyuPg.png" alt="" />
-            </div>
-            <div>
-              <img src="https://ifh.cc/g/b2qOxU.png" alt="" />
-            </div>
-          </div>
-          <div class="back-button">
-            <a href="/usr/content/list"
-              ><img src="https://ifh.cc/g/JFZ8g1.png" alt=""
-            /></a>
-          </div>
-          <div class="video-container">
-            <div class="video-box">
-              <iframe
-                id="video"
-                width="1824"
-                height="783"
-                src="https://www.youtube.com/embed/KVHJfKdHxuw"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+<body>
+	<div class="img-container">
+		<div>
+			<img class="main-img" src="https://ifh.cc/g/Sb439x.png" alt="" />
+			<div class="bg">
+				<div class="logo-box">
+					<div>
+						<img src="https://ifh.cc/g/oLyuPg.png" alt="" />
+					</div>
+					<div>
+						<img src="https://ifh.cc/g/b2qOxU.png" alt="" />
+					</div>
+				</div>
+				<div class="back-button">
+					<a href="/usr/content/list"><img
+						src="https://ifh.cc/g/JFZ8g1.png" alt="" /></a>
+				</div>
+				<div class="video-container">
+					<div class="video-box">
+						<iframe width="1120" height="630"
+							src="https://www.youtube.com/embed/CuHh96inI1k"
+							title="YouTube video player" frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
 </html>
-

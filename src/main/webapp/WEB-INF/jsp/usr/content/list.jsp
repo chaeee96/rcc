@@ -32,52 +32,52 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Document</title>
 </head>
- <body>
-    <div class="img-container">
-      <div>
-        <img class="main-img" src="https://ifh.cc/g/Sb439x.png" alt="" />
-        <div class="bg">
-          <div class="logo-box">
-            <div>
-              <img src="https://ifh.cc/g/oLyuPg.png" alt="" />
-            </div>
-            <div>
-              <img src="https://ifh.cc/g/b2qOxU.png" alt="" />
-            </div>
-          </div>
+<body>
+	<div class="img-container">
+		<div>
+			<img class="main-img" src="https://ifh.cc/g/Sb439x.png" alt="" />
+			<div class="bg">
+				<div class="logo-box">
+					<div>
+						<img src="https://ifh.cc/g/oLyuPg.png" alt="" />
+					</div>
+					<div>
+						<img src="https://ifh.cc/g/b2qOxU.png" alt="" />
+					</div>
+				</div>
 
-          <div class="content-container">
-            <div class="content-box">
-              <div class="content">
-                <a href="/usr/content/listDetail"
-                  ><img src="https://ifh.cc/g/oQNbpX.jpg" alt=""
-                /></a>
-              </div>
-              <div class="content">
-                <a href="/usr/content/listDetail"><img src="https://ifh.cc/g/oQNbpX.jpg" alt="" /></a>
-              </div>
-              <div class="content">
-                <a href="#"><img src="https://ifh.cc/g/oQNbpX.jpg" alt="" /></a>
-              </div>
+				<div class="content-container">
+					<div class="content-box">
+						<div class="content">
+							<a href="/usr/content/listDetail1"><img
+								src="https://ifh.cc/g/G5ACPw.jpg" alt="" /></a>
+						</div>
+						<div class="content">
+							<a href="/usr/content/listDetail2"><img
+								src="https://ifh.cc/g/f724HL.jpg" alt="" /></a>
+						</div>
+						<div class="content">
+							<a href="/usr/content/listDetail3"><img src="https://ifh.cc/g/QK3HRe.jpg" alt="" /></a>
+						</div>
 
-              <div class="content">
-                <a href="#"><img src="https://ifh.cc/g/oQNbpX.jpg" alt="" /></a>
-              </div>
-              <div class="content">
-                <a href="#"><img src="https://ifh.cc/g/oQNbpX.jpg" alt="" /></a>
-              </div>
-              <div class="content">
-                <a href="#"><img src="https://ifh.cc/g/oQNbpX.jpg" alt="" /></a>
-              </div>
+						<div class="content">
+							<a href="/usr/content/listDetail4"><img src="https://ifh.cc/g/gZu2QO.jpg" alt="" /></a>
+						</div>
+						<div class="content">
+							<a href="/usr/content/listDetail5"><img src="https://ifh.cc/g/XjO1Fm.jpg" alt="" /></a>
+						</div>
+						<div class="content">
+							<a href="/usr/content/listDetail6"><img src="https://ifh.cc/g/UHyRXS.jpg" alt="" /></a>
+						</div>
 
-              <div class="content-text">
-                <span>무단투기가 지속된다면? (사진을 클릭해보세요!)</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+						<div class="content-text">
+							<span>불편한 사진을 </span> <span class="text2">클릭해보세요!</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
 </html>
 

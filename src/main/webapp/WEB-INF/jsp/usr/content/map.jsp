@@ -45,32 +45,12 @@
 						<img src="https://ifh.cc/g/b2qOxU.png" alt="" />
 					</div>
 				</div>
-				<form action="/usr/content/testForm">
-					<div class="test-main-container">
 
-						<div class="test-main-img-box">
-							<div class="test-main-img">
-								<img src="https://ifh.cc/g/uVApE4.jpg" alt="" /> 
-							</div>
-						</div>
-
-						<div class="test-main-text-box">
-
-						
-								<span>저희 기획단은 한밭대 원룸촌의 쓰레기 무단투기에 대해 문제에 대한 심각성을 느끼고 이에 대한 해결방안으로
-									“자신의 쓰레기 처리 방식에 따른 음식 유형 검사”를 만들었습니다. 가벼운 테스트이니 재미있게 즐겨주세요!
-						</span>
-						
-
-						</div>
-
-
-						<div class="test_btn_box">
-							<button class="test-btn" type="submit">START</button>
-						</div>
+				<div class="map-container">
+					<div class="map-box">
+						<img src="https://ifh.cc/g/3ce64O.jpg" alt="" />
 					</div>
-				</form>
-
+				</div>
 			</div>
 		</div>
 	</div>
