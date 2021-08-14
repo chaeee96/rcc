@@ -247,9 +247,8 @@
 	background-color: #FAF2DA;
 	justify-content: center;
 	align-items: center;
-	
-border-radius: 20px;
-    border: solid black 4px;
+	border-radius: 20px;
+	border: solid black 4px;
 	height: 70%;
 }
 
@@ -282,9 +281,9 @@ border-radius: 20px;
 	display: flex;
 	justify-content: center;
 }
-.btn-box >button:nth-child(1){
-	
-	margin-right:20px;
+
+.btn-box>button:nth-child(1) {
+	margin-right: 20px;
 }
 
 .q-text {
@@ -324,11 +323,11 @@ border-radius: 20px;
 .q-title {
 	text-align: none !important;
 }
-.result-box{
-	
-	text-align:center;
 
+.result-box {
+	text-align: center;
 }
+
 .result-boxx {
 	display: flex;
 	flex-direction: column;
@@ -336,15 +335,14 @@ border-radius: 20px;
 	align-items: center;
 }
 
-.result-boxx img{
+.result-boxx img {
 	width: 100%;
 	height: 100%;
 }
-.result-img-box{
+
+.result-img-box {
 	width: 40%;
-	
 	margin: 3% 0%;
-	
 }
 
 .result-txt {
@@ -369,8 +367,7 @@ border-radius: 20px;
 		flex-wrap: wrap;
 	}
 	.btn-box {
-	
-
+		
 	}
 	.q-text {
 		font-size: 1.2rem;
@@ -408,15 +405,14 @@ border-radius: 20px;
 	.result-box div div img {
 		
 	}
-	.result-img-box{
-	 	width:60%;
+	.result-img-box {
+		width: 60%;
 	}
 	.result-box {
 		text-align: center;
 	}
-	
-	.result-txt{
-		font-size:0.8rem;
+	.result-txt {
+		font-size: 0.8rem;
 	}
 }
 
@@ -428,11 +424,11 @@ border-radius: 20px;
 	background-color: #8E9775;
 	width: 40%;
 	margin: auto;
-	height: 50%;
+	height: 60%;
 	flex-direction: column;
-	margin-top: 4%;
+	margin-top: 3%;
 	padding-bottom: 2%;
-	border-radius:20px;
+	border-radius: 20px;
 	border: solid black 4px;
 }
 
@@ -451,9 +447,9 @@ border-radius: 20px;
 	color: #4A503D;
 }
 
-.test-main-img img{
-		height: 100%;
-		width: 100%;
+.test-main-img img {
+	height: 100%;
+	width: 100%;
 }
 
 .test-btn {
@@ -496,7 +492,7 @@ border-radius: 20px;
 	text-align: center;
 	font-size: 0.9rem;
 	padding: 3% 3%;
-	margin : 3% 5%;
+	margin: 3% 5%;
 }
 
 @media ( max-width : 700px) {
@@ -505,18 +501,17 @@ border-radius: 20px;
 		margin-top: 18%;
 	}
 	.test-main-img {
-		margin : 5% 5%;
+		margin: 5% 5%;
 		width: 78%;
 	}
 	.test-main-img img {
 		height: 100%;
-		
 	}
-	.test-btn{
+	.test-btn {
 		padding: 8px 18px !important;
-		margin:0px;
+		margin: 0px;
 	}
-	.test-main-text-box{
+	.test-main-text-box {
 		font-size: 0.74rem;
 	}
 }
@@ -537,6 +532,12 @@ border-radius: 20px;
 	width: 50%;
 	height: 70%;
 	padding-bottom: 30%;
+}
+
+.video-content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
 }
 
 #video {
@@ -563,13 +564,13 @@ border-radius: 20px;
 		height: 55%;
 	}
 	.video-box {
-		position:relative;
+		position: relative;
 		width: 80%;
 		height: 60%;
 		margin-bottom: 50%;
 	}
-	.video-box iframe{
-		position:absolute;
+	.video-box iframe {
+		position: absolute;
 		width: 100%;
 		height: 100%;
 	}
@@ -584,9 +585,213 @@ border-radius: 20px;
 
 /*동영상 리스트 상세페이지 끝*/
 
-
 /* 지도 페이지 */
+.map-container {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	margin-top: 3%;
+}
 
+.map-box {
+	width: 60%;
+	height: 85%;
+	position: relative;
+}
+
+.map-container img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.map-button-box {
+	margin-top: 13%;
+	position: absolute;
+	width: 60%;
+	height: 70%;
+}
+
+.map-button-box a {
+	display: block;
+	border-radius: 50%;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-ms-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+	border: solid black 3px;
+}
+
+.map-button-box a:hover {
+	-webkit-transform: scale(1.6);
+	-moz-transform: scale(1.6);
+	-ms-transform: scale(1.6);
+	-o-transform: scale(1.6);
+	transform: scale(1.6);
+}
+
+.map-button-box a:nth-child(1) {
+	margin-left: 20%;
+	height: 10%;
+	width: 10%;
+	background-color: #81DAF5;
+}
+
+.map-button-box a:nth-child(2) {
+	margin-left: 30%;
+	height: 10%;
+	width: 10%;
+	background-color: #81F781;
+}
+
+.map-button-box a:nth-child(3) {
+	margin-top: 2%;
+	margin-left: 56%;
+	height: 10%;
+	width: 10%;
+	background-color: #FFBF00;
+}
+
+.map-button-box a:nth-child(4) {
+	margin-left: 42%;
+	height: 10%;
+	width: 10%;
+	background-color: #FA5858;
+}
+
+.map-button-box a:nth-child(5) {
+	margin-top: 27%;
+	margin-left: 80%;
+	height: 10%;
+	width: 10%;
+	background-color: #FFFF00;
+}
+
+.map-title-box {
+	margin-top: 3%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.map-title-box span {
+	font-size: 2.5rem;
+}
+
+.map-body {
+	display: flex;
+	flex-direction: column;
+	margin: 1% auto;
+	height: 70%;
+	width: 47%;
+	background-color: #FAF2DA;
+	border: solid black 10px;
+	color: black;
+	border-radius: 20px;
+}
+
+@media ( max-width : 820px) {
+	.map-body {
+		height: 40%;
+		width: 80%;
+		padding: 3% 3%;
+		margin-top: 6%;
+	}
+	.map-title-box span {
+		font-size: 1.4rem;
+	}
+	.map-box {
+		height: 93%;
+		width: 90%;
+	}
+	.map-title-box {
+		align-items: stretch !important;
+	}
+}
 /* 지도 페이지 끝*/
 
+/*지도 상세페이지  */
+.interview-container {
+	display: flex;
+	color: black;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
 
+.interview-box {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 55%;
+	width: 45%;
+	background-color: #FAF2DA;
+	border-radius: 10px;
+	border: solid black 10px;
+}
+
+.profile-text {
+	font-size: 1.6rem;
+	margin-top: 4%;
+}
+
+.profile-img {
+	margin-top: 3%;
+	height: 28%;
+	width: 25%;
+	text-align: center;
+}
+
+.profile-img img {
+	border-radius: 30%;
+}
+
+.interview-content {
+	display: flex;
+	flex-direction: column;
+	height: 30%;
+	width: 82%;
+	margin-top: 2%;
+	font-size: 1.2rem;
+}
+
+.q {
+	margin-bottom: 2%;
+	font-size: 1.8rem;
+}
+
+@media ( max-width : 820px) {
+	.interview-box {
+		height: 45%;
+		width: 85%;
+		border: solid black 7px;
+	}
+	.profile-img {
+		height: 28%;
+		width: 45%;
+		margin-top : 5%;
+	}
+	.profile-text{
+		margin-top : 8%;
+		font-size: 0.9rem;
+	}
+	.q{
+		font-size: 1.2rem;
+	}
+	.a{
+		font-size: 0.9rem;
+	}
+	.interview-content{
+			width: 87%;
+	}
+}
+
+/*지도 상세페이지 끝 */

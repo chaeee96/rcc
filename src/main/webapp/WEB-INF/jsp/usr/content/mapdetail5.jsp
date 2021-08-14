@@ -32,9 +32,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Document</title>
 </head>
-
-
-
 <body>
 	<div class="img-container">
 		<div>
@@ -49,18 +46,29 @@
 					</div>
 				</div>
 				<div class="back-button">
-					<a href="/usr/content/list"><img
+					<a href="/usr/content/map"><img
 						src="https://ifh.cc/g/JFZ8g1.png" alt="" /></a>
 				</div>
-				<div class="video-container">
-					<div class="video-box">
-						<iframe class="video-content" width="982" height="552"
-							src="https://www.youtube.com/embed/CuHh96inI1k"
-							title="YouTube video player" frameborder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen></iframe>
+				<div class="interview-container">
+
+					<div class="interview-box">
+						<div class="profile-img">
+							<img src="https://ifh.cc/g/6SrYeR.jpg" alt="" />
+						</div>
+						<div class="profile-text">
+							<span class="pofile">굽네치킨 대전학하지구점 사장님</span>
+						</div>
+						<div class="interview-content">
+							<span class="q">Q. 현재 쓰레기 무단투기 문제가 심각하다고 생각하시나요? (심각하다고
+								생각하신다면) 어떤 해결방안이 있을까요?</span> <span class="a">네 심각하다고 생각합니다. 쓰레기
+								배출 장소를 지정하고, 배출 시설을 설치해야 한다고 생각합니다. 또한 단속을 강화하고 지속적인 관리를 해야합니다.
+							</span>
+						</div>
+
 					</div>
+
 				</div>
+
 			</div>
 		</div>
 	</div>

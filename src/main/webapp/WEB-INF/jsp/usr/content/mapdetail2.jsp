@@ -32,9 +32,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Document</title>
 </head>
-
-
-
 <body>
 	<div class="img-container">
 		<div>
@@ -49,18 +46,29 @@
 					</div>
 				</div>
 				<div class="back-button">
-					<a href="/usr/content/list"><img
+					<a href="/usr/content/map"><img
 						src="https://ifh.cc/g/JFZ8g1.png" alt="" /></a>
 				</div>
-				<div class="video-container">
-					<div class="video-box">
-						<iframe class="video-content" width="982" height="552"
-							src="https://www.youtube.com/embed/CuHh96inI1k"
-							title="YouTube video player" frameborder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen></iframe>
+					<div class="interview-container">
+
+				<div class="interview-box">
+						<div class="profile-img">
+							<img src="https://ifh.cc/g/zIq196.jpg" alt="" />
+						</div>
+						<div class="profile-text">
+							<span class="pofile">쇼랜드 치킨 대전한밭대점 사장님</span>
+						</div>
+						<div class="interview-content">
+							<span class="q">Q. 학교 주변 쓰레기 무단투기 문제를 해결할 수 있는 방안으로 생각하는
+								것은 무엇이 있을까요? </span> <span class="a">무단투기 된 쓰레기들을 보면 음식물 쓰레기와 재활용
+								쓰레기를 분리하여 배출하지 않고 혼합하여 배출되어 있습니다. 이에 대해 주민들의 쓰레기 무단투기 문제에 대한 인식
+								향상이 필요하다고 생각합니다. </span>
+						</div>
+
 					</div>
+
 				</div>
+				
 			</div>
 		</div>
 	</div>

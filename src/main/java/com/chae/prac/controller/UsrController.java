@@ -83,8 +83,38 @@ public class UsrController {
 	@RequestMapping("/usr/content/map")
 	public String showmap() {
 		
-		
 		return "/usr/content/map";
+		
+	}
+	
+	@RequestMapping("/usr/content/mapdetail1")
+	public String showmapdetail1() {
+		
+		return "/usr/content/mapdetail1";
+		
+	}
+	@RequestMapping("/usr/content/mapdetail2")
+	public String showmapdetail2() {
+		
+		return "/usr/content/mapdetail2";
+		
+	}
+	@RequestMapping("/usr/content/mapdetail3")
+	public String showmapdetail3() {
+		
+		return "/usr/content/mapdetail3";
+		
+	}
+	@RequestMapping("/usr/content/mapdetail4")
+	public String showmapdetail4() {
+		
+		return "/usr/content/mapdetail4";
+		
+	}
+	@RequestMapping("/usr/content/mapdetail5")
+	public String showmapdetail5() {
+		
+		return "/usr/content/mapdetail5";
 		
 	}
 }

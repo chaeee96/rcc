@@ -51,7 +51,7 @@
 				</div>
 				<div class="video-container">
 					<div class="video-box">
-						<iframe width="1120" height="630"
+						<iframe class="video-content" width="1120" height="630"
 							src="https://www.youtube.com/embed/7fNsIYETA9U"
 							title="YouTube video player" frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

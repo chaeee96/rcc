@@ -45,12 +45,29 @@
 						<img src="https://ifh.cc/g/b2qOxU.png" alt="" />
 					</div>
 				</div>
+				<div class="map-body">
 
-				<div class="map-container">
-					<div class="map-box">
-						<img src="https://ifh.cc/g/3ce64O.jpg" alt="" />
+					<div class="map-title-box">
+						<span>지도에 있는 버튼을 눌러서 </span> <span>학교주변 상인분들의 이야기를 들어보세요!</span>
+					</div>
+
+					<div class="map-container">
+
+						<div class="map-box">
+							<img src="https://ifh.cc/g/9Nx9Pn.jpg" alt="" />
+
+							<div class="map-button-box">
+
+
+								<a href="/usr/content/mapdetail1" type="submit"></a> <a href="/usr/content/mapdetail2" type="submit"></a> <a
+									href="/usr/content/mapdetail3" type="submit"></a> <a href="/usr/content/mapdetail4" type="submit"></a> <a
+									href="/usr/content/mapdetail5" type="submit"></a>
+
+							</div>
+						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
 	</div>

@@ -383,6 +383,7 @@
 
 
 										<div class="btn-box">
+										
 											<button onclick="Form1__prev(this);" type="button"
 												class="btn btn-disabled btn-prev">이전</button>
 											<button type="submit" class="btn btn-next">다음</button>

@@ -32,9 +32,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Document</title>
 </head>
-
-
-
 <body>
 	<div class="img-container">
 		<div>
@@ -49,18 +46,28 @@
 					</div>
 				</div>
 				<div class="back-button">
-					<a href="/usr/content/list"><img
+					<a href="/usr/content/map"><img
 						src="https://ifh.cc/g/JFZ8g1.png" alt="" /></a>
 				</div>
-				<div class="video-container">
-					<div class="video-box">
-						<iframe class="video-content" width="982" height="552"
-							src="https://www.youtube.com/embed/CuHh96inI1k"
-							title="YouTube video player" frameborder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen></iframe>
+				<div class="interview-container">
+
+					<div class="interview-box">
+						<div class="profile-img">
+							<img src="https://ifh.cc/g/zRxQTy.jpg" alt="" />
+						</div>
+						<div class="profile-text">
+							<span class="pofile">제주돈방 직원분</span>
+						</div>
+						<div class="interview-content">
+							<span class="q">Q. 쓰레기 무단투기에 대한 경험이 있으신가요?</span> <span class="a">자취하는 학생이 저희 가게용 음식물 쓰레기통에 음식물을
+								버리려고 한 적이 있습니다. 학생분들이 쓰레기 배출 방법에 대해 잘 모르는 것 같아 이에 대해 교육이 필요하다고
+								생각합니다. </span>
+						</div>
+
 					</div>
+
 				</div>
+
 			</div>
 		</div>
 	</div>
