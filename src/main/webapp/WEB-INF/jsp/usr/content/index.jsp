@@ -48,28 +48,14 @@
 				<div class="map-body-container">
 					<div class="map-body">
 
-						<div class="map-title-box">
-							<span>지도에 있는 버튼을 눌러서 </span> <span>학교주변 상인분들의 이야기를 들어보세요!</span>
-						</div>
-
-						<div class="map-container">
-
-							<div class="map-box">
-								<img src="https://ifh.cc/g/9Nx9Pn.jpg" alt="" />
-
-								<div class="map-button-box">
-
-
-									<a onclick="saveVisitLog2('mapsub1');" href="/usr/content/mapdetail3" type="submit"></a> <a
-										onclick="saveVisitLog2('mapsub2');" href="/usr/content/mapdetail5" type="submit"></a> <a
-										onclick="saveVisitLog2('mapsub3');" href="/usr/content/mapdetail2" type="submit"></a> <a
-										onclick="saveVisitLog2('mapsub4');" href="/usr/content/mapdetail4" type="submit"></a> <a
-										onclick="saveVisitLog2('mapsub5');" href="/usr/content/mapdetail1" type="submit"></a>
-
-								</div>
-							</div>
-
-						</div>
+						<a onclick="saveVisitLog('index');" href="/usr/content/listDetail1">메인</a> <a
+							onclick="saveVisitLog('list1');" href="/usr/content/listDetail1">서브1</a> <a
+							onclick="saveVisitLog('list2');" href="/usr/content/listDetail2">서브2</a> <a
+							onclick="saveVisitLog('list3');" href="/usr/content/listDetail3">서브3</a> <a
+							onclick="saveVisitLog('list4');" href="/usr/content/listDetail4">서브4</a> <a
+							onclick="saveVisitLog('list5');" href="/usr/content/listDetail5">서브5</a> <a
+							onclick="saveVisitLog('list6');" href="/usr/content/listDetail6">서브6</a> <a
+							class="btn-go-last-page" href="/usr/content/map">마지막 페이지</a>
 
 					</div>
 					<div class="map-next-button-box">
@@ -77,7 +63,7 @@
 							<img src="https://ifh.cc/g/XGGcGt.png" alt="" />
 						</div>
 						<div>
-							<a class="btn-go-last-page"  href="/usr/content/lastPage"> <img
+							<a href="/usr/content/lastPage"> <img
 								src="https://ifh.cc/g/FEF8GO.png" alt="" /></a>
 
 						</div>

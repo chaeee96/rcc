@@ -117,3 +117,67 @@ if (urlParams.get("q1") == 'Y' || urlParams.get("q1") == 'N') {
 else {
 	$('.form-1').removeClass('hidden');
 }
+
+//다음페이지 조건 검사 
+
+function saveVisitLog(pageName) {
+  localStorage.setItem(pageName, true);
+}
+
+function btnGoLastButtonVisible() {
+  const keys = ["list1", "list2", "list3", "list4", "list5", "list6"];
+
+  for (key of keys) {
+    if (localStorage.getItem(key) !== "true") {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+function Page__init() {
+  $(".btn-go-next-page").click(function () {
+    if (!btnGoLastButtonVisible()) {
+      alert("아직 보지 않은 영상이 있습니다!");
+
+      return false;
+    }
+  });
+}
+
+$(function () {
+  Page__init();
+});
+
+
+function saveVisitLog2(pageName) {
+  localStorage.setItem(pageName, true);
+}
+
+function btnGoLastButtonVisible2() {
+  const keys = ["mapsub1", "mapsub2", "mapsub3", "mapsub4", "mapsub5"];
+
+  for (key of keys) {
+    if (localStorage.getItem(key) !== "true") {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+function Page__init2() {
+  $(".btn-go-last-page").click(function () {
+    if (!btnGoLastButtonVisible2()) {
+      alert("아직 듣지 못한 상인분의 이야기가 있습니다!");
+      return false;
+    }
+  });
+}
+
+$(function () {
+  Page__init2();
+});
+
+

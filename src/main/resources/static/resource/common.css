@@ -147,17 +147,18 @@
 
 /* 동영상 리스트 페이지 */
 .content-container {
-	width: 65%;
+	display: flex;
+	width: 95%;
 	height: 70%;
 	margin: auto;
-	margin-top: 3%;
+	margin-left: 27%;
 }
 
 .content-box {
 	display: flex;
 	background-color: #FAF2DA;
-	width: 75%;
-	height: 90%;
+	width: 95%;
+	height: 95%;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
@@ -196,11 +197,75 @@
 	position: absolute;
 }
 
+.next-button-box {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.next-button-box div {
+	position: absolute;
+}
+
+.next-button-box div:nth-child(1) {
+	margin-top: 50%;
+	height: 30%;
+	width: 20%;
+}
+
+.next-button-box div:nth-child(1) img {
+	width: 90%;
+	height: 60%;
+}
+
+.next-button-box div:nth-child(2) {
+	height: 100%;
+	margin-top: 50%;
+}
+
+.next-button-box div:nth-child(2) a {
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+.next-button-box div:nth-child(2) a img {
+	margin-top: 13%;
+	margin-left: 94%;
+	height: 25%;
+	width: 100%;
+}
+
 @media ( max-width : 820px) {
 	.content-container {
+		display: flex;
+		flex-direction: column;
+		margin: auto;
 		margin-top: 10%;
 		width: 90%;
 		height: 50%;
+		width: 90%;
+	}
+	.next-button-box div:nth-child(1) {
+		margin-top: 8%;
+		margin-left: 25%;
+		height: 90%;
+		width: 25%;
+	}
+	.next-button-box {
+		height: 100%;
+		width: 100%;
+	}
+	.next-button-box div:nth-child(2) {
+		margin: 0;
+		height: 100%;
+		width: 100%;
+	}
+	.next-button-box div:nth-child(2) a img {
+		margin-left: 50%;
+		width: 30%;
+		height: 100%;
+		margin-top: 8%;
 	}
 	.content {
 		width: 40%;
@@ -215,6 +280,25 @@
 	}
 	.text2 {
 		text-align: center;
+	}
+	.content-box {
+		width: 80%;
+	}
+	.content-text span {
+		font-size: 1.2rem;
+	}
+	.content-text span:nth-child(1) {
+		margin-bottom: 13%;
+	}
+	.content-text span:nth-child(2) {
+		padding-top: 7%;
+	}
+}
+
+@media ( min-width : 0px) and (max-width: 740px) {
+	.next-button-box div:nth-child(2) a img {
+		width: 30%;
+		height: 80%;
 	}
 }
 
@@ -366,9 +450,6 @@
 		height: 60%;
 		flex-wrap: wrap;
 	}
-	.btn-box {
-		
-	}
 	.q-text {
 		font-size: 1.2rem;
 	}
@@ -401,9 +482,6 @@
 	}
 	.pre img {
 		padding: 7% 4%;
-	}
-	.result-box div div img {
-		
 	}
 	.result-img-box {
 		width: 60%;
@@ -595,8 +673,8 @@
 }
 
 .map-box {
-	width: 60%;
-	height: 85%;
+	width: 75%;
+	height: 97%;
 	position: relative;
 }
 
@@ -676,34 +754,78 @@
 
 .map-title-box {
 	margin-top: 3%;
-	justify-content: center;
-	align-items: center;
 	display: flex;
 	flex-direction: column;
 }
 
 .map-title-box span {
-	font-size: 2.5rem;
+	font-size: 2.1rem;
 }
 
 .map-body {
 	display: flex;
 	flex-direction: column;
-	margin: 1% auto;
+	padding: 2% 4%;
+	margin-top: 3%;
+	margin-left: 20%;
+	margin-right: 2%;
 	height: 70%;
-	width: 47%;
+	width: 74%;
 	background-color: #FAF2DA;
 	border: solid black 10px;
 	color: black;
 	border-radius: 20px;
+	height: 70%;
+	margin-top: 3%;
+}
+
+.map-body-container {
+	display: flex;
+	height: 90%;
+	width: 80%;
+	margin: auto;
+}
+
+.map-next-button-box {
+	position: relative;
+	height: 100%;
+	width: 30%;
+	padding-top: 35%;
+}
+
+.map-next-button-box div {
+	position: absolute;
+}
+
+.map-next-button-box div:nth-child(1) {
+	height: 38%;
+	width: 60%;
+}
+
+.map-next-button-box div:nth-child(2) {
+	margin-top: 10%;
+	margin-left: 55%;
+	height: 35%;
+	width: 55%;
 }
 
 @media ( max-width : 820px) {
+	.map-body-container {
+		margin-top: 5%;
+		flex-direction: column;
+		width: 80%;
+		height: 100%;
+	}
+	.map-next-button-box {
+		margin-left: 30%;
+		padding-top: 10%;
+		height: 40% !important;
+		padding-top: 15%;
+	}
 	.map-body {
 		height: 40%;
-		width: 80%;
-		padding: 3% 3%;
-		margin-top: 6%;
+		width: 100%;
+		margin: 0;
 	}
 	.map-title-box span {
 		font-size: 1.4rem;
@@ -714,6 +836,19 @@
 	}
 	.map-title-box {
 		align-items: stretch !important;
+	}
+	.map-next-button-box div:nth-child(1) {
+		height: 73%;
+		width: 70%;
+	}
+	.map-next-button-box div:nth-child(2) {
+		margin-left: 65%;
+		height: 100%;
+		width: 100%;
+	}
+	.map-button-box a {
+		height: 15% !important;
+		width: 15% !important;
 	}
 }
 /* 지도 페이지 끝*/
@@ -777,21 +912,90 @@
 	.profile-img {
 		height: 28%;
 		width: 45%;
-		margin-top : 5%;
+		margin-top: 5%;
 	}
-	.profile-text{
-		margin-top : 8%;
+	.profile-text {
+		margin-top: 8%;
 		font-size: 0.9rem;
 	}
-	.q{
+	.q {
 		font-size: 1.2rem;
 	}
-	.a{
+	.a {
 		font-size: 0.9rem;
 	}
-	.interview-content{
-			width: 87%;
+	.interview-content {
+		width: 87%;
 	}
 }
 
 /*지도 상세페이지 끝 */
+
+/* 마지막 페이지 시작 */
+.lastpage-body-container {
+	display: flex;
+	background-color: #FAF2DA;
+	height: 70%;
+	width: 45%;
+	border: solid black 10px;
+	border-radius: 20px;
+	margin: auto;
+	margin: 1% auto;
+	justify-content: center;
+	text-align: center;
+}
+
+.lastpage-body {
+	display: flex;
+	flex-direction: column;
+}
+
+.lastpage-text-box span {
+	color: black;
+	display: block;
+	font-size: 1.5rem;
+}
+
+.lastpage-img-box {
+	height: 28%;
+	width: 65%;
+	margin: 8% auto;
+}
+
+.quiz-link {
+	margin: 4% auto;
+	width: 30%;
+	background-color: #D0C778;
+	padding: 3px 3px;
+	border-radius: 10px;
+	border: solid black 3px;
+}
+
+.quiz-link:hover {
+	background-color: #ffff80;
+}
+
+@media ( max-width : 820px) {
+	.lastpage-body-container {
+		width: 87%;
+		height: 55%;
+		padding : 3%;
+	}
+	.lastpage-text-box span {
+		font-size: 1.2rem;
+	}
+	.lastpage-img-box{
+		height: 23%;
+		margin: 10% auto;
+	}
+	.lastpage-img-box img {
+		width: 100%;
+		height: 80%;
+	}
+	.quiz-link{
+		width: 55%;
+		margin-top: 10%;
+		padding : 8px 8px;
+	}
+}
+/* 마지막 페이지 끝 */

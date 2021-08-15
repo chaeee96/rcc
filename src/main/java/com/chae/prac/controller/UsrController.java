@@ -117,4 +117,16 @@ public class UsrController {
 		return "/usr/content/mapdetail5";
 		
 	}
+	@RequestMapping("/usr/content/lastPage")
+	public String showlastPage() {
+		
+		return "/usr/content/lastPage";
+		
+	}
+	@RequestMapping("/usr/content/index")
+	public String showindex() {
+		
+		return "/usr/content/index";
+		
+	}
 }

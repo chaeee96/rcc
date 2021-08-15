@@ -45,43 +45,23 @@
 						<img src="https://ifh.cc/g/b2qOxU.png" alt="" />
 					</div>
 				</div>
-				<div class="map-body-container">
-					<div class="map-body">
+				<div class="lastpage-body-container">
+					<div class="lastpage-body">
+						<div class="lastpage-img-box">
+							<img src="https://ifh.cc/g/VienfL.png" alt="" /> 
+						</div>
+						<div class="lastpage-text-box">
 
-						<div class="map-title-box">
-							<span>지도에 있는 버튼을 눌러서 </span> <span>학교주변 상인분들의 이야기를 들어보세요!</span>
+							<span>저희가 준비한 컨텐츠는 여기까지 입니다!</span> <span>부족하지만 끝까지 봐주셔서
+								감사합니다!</span> <span>무단투기 근절 함께 해주실꺼죠?^^ </span> <span>아래 링크로 가서
+								퀴즈를 풀어보세요!</span> <span> 추첨을 통해서 선물을 드립니다!</span><a href=""> <span class="quiz-link">퀴즈 풀러
+									가기!</span></a>
 						</div>
 
-						<div class="map-container">
-
-							<div class="map-box">
-								<img src="https://ifh.cc/g/9Nx9Pn.jpg" alt="" />
-
-								<div class="map-button-box">
-
-
-									<a onclick="saveVisitLog2('mapsub1');" href="/usr/content/mapdetail3" type="submit"></a> <a
-										onclick="saveVisitLog2('mapsub2');" href="/usr/content/mapdetail5" type="submit"></a> <a
-										onclick="saveVisitLog2('mapsub3');" href="/usr/content/mapdetail2" type="submit"></a> <a
-										onclick="saveVisitLog2('mapsub4');" href="/usr/content/mapdetail4" type="submit"></a> <a
-										onclick="saveVisitLog2('mapsub5');" href="/usr/content/mapdetail1" type="submit"></a>
-
-								</div>
-							</div>
-
-						</div>
+					
 
 					</div>
-					<div class="map-next-button-box">
-						<div>
-							<img src="https://ifh.cc/g/XGGcGt.png" alt="" />
-						</div>
-						<div>
-							<a class="btn-go-last-page"  href="/usr/content/lastPage"> <img
-								src="https://ifh.cc/g/FEF8GO.png" alt="" /></a>
 
-						</div>
-					</div>
 				</div>
 
 

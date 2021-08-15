@@ -33,9 +33,8 @@
 <title>Document</title>
 </head>
 <script>
-	function list__storage(){
-		
-		
+	function list__storage() {
+
 	}
 </script>
 <body>
@@ -55,29 +54,43 @@
 				<div class="content-container">
 					<div class="content-box">
 						<div class="content">
-							<a href="/usr/content/listDetail1"><img
+							<a onclick="saveVisitLog('list1');" href="/usr/content/listDetail1"><img
 								src="https://ifh.cc/g/G5ACPw.jpg" alt="" /></a>
 						</div>
 						<div class="content">
-							<a href="/usr/content/listDetail2"><img
+							<a onclick="saveVisitLog('list2');" href="/usr/content/listDetail2"><img
 								src="https://ifh.cc/g/f724HL.jpg" alt="" /></a>
 						</div>
 						<div class="content">
-							<a href="/usr/content/listDetail3"><img src="https://ifh.cc/g/QK3HRe.jpg" alt="" /></a>
+							<a onclick="saveVisitLog('list3');" href="/usr/content/listDetail3"><img
+								src="https://ifh.cc/g/QK3HRe.jpg" alt="" /></a>
 						</div>
 
 						<div class="content">
-							<a href="/usr/content/listDetail4"><img src="https://ifh.cc/g/gZu2QO.jpg" alt="" /></a>
+							<a onclick="saveVisitLog('list4');" href="/usr/content/listDetail4"><img
+								src="https://ifh.cc/g/gZu2QO.jpg" alt="" /></a>
 						</div>
 						<div class="content">
-							<a href="/usr/content/listDetail5"><img src="https://ifh.cc/g/XjO1Fm.jpg" alt="" /></a>
+							<a onclick="saveVisitLog('list5');" href="/usr/content/listDetail5"><img
+								src="https://ifh.cc/g/XjO1Fm.jpg" alt="" /></a>
 						</div>
 						<div class="content">
-							<a href="/usr/content/listDetail6"><img src="https://ifh.cc/g/UHyRXS.jpg" alt="" /></a>
+							<a onclick="saveVisitLog('list6');" href="/usr/content/listDetail6"><img
+								src="https://ifh.cc/g/UHyRXS.jpg" alt="" /></a>
 						</div>
 
 						<div class="content-text">
-							<span>불편한 사진을 </span> <span class="text2">클릭해보세요!</span>
+							<span></span><span class="text2">사진을 클릭해보세요!</span>
+						</div>
+					</div>
+
+					<div class="next-button-box">
+						<div>
+							<img src="https://ifh.cc/g/XGGcGt.png" alt="" />
+						</div>
+						<div>
+							<a class="btn-go-next-page"  href="/usr/content/map"> <img src="https://ifh.cc/g/FEF8GO.png" alt="" /></a>
+
 						</div>
 					</div>
 				</div>

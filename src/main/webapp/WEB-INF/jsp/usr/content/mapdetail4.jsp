@@ -56,7 +56,7 @@
 							<img src="https://ifh.cc/g/zRxQTy.jpg" alt="" />
 						</div>
 						<div class="profile-text">
-							<span class="pofile">제주돈방 직원분</span>
+							<span class="pofile">제주돈방 사장님</span>
 						</div>
 						<div class="interview-content">
 							<span class="q">Q. 쓰레기 무단투기에 대한 경험이 있으신가요?</span> <span class="a">자취하는 학생이 저희 가게용 음식물 쓰레기통에 음식물을
