@@ -99,11 +99,9 @@
 	.button-box {
 		margin-left: 30%;
 	}
-	.logo-box div:nth-child(2) img {
-		padding: 20px 10px !important;
-	}
+
 	.logo-box div {
-		width: 30% !important;
+		width: 40% !important;
 	}
 	.main-img {
 		display: none;
@@ -120,12 +118,20 @@
 .logo-box {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
+	height: 12%;
 }
 
 .logo-box div {
 	top: 0px;
-	width: 15%;
+	width: 20%;
 	height: 100%;
+}
+.logo-box div:nth-child(2){
+	margin-top : 1%;
+	width: 20%;
+	height: 100%;
+	
 }
 
 .logo-box div:nth-child(1) img {
@@ -133,8 +139,10 @@
 }
 
 .logo-box div:nth-child(2) img {
+	margin-left: 25%;
+	margin-top : 3%;
 	height: 100%;
-	padding: 30px 10px;
+	width: 80%;
 }
 
 .button-content {
@@ -293,6 +301,9 @@
 	.content-text span:nth-child(2) {
 		padding-top: 7%;
 	}
+	.logo-box div:nth-child(2){
+		margin-top : -3% !important;
+	}
 }
 
 @media ( min-width : 0px) and (max-width: 740px) {
@@ -324,9 +335,10 @@
 }
 
 .form-box {
-	margin-top: 10%;
+	margin-top: 2%;
 	width: 70%;
-	margin: 5% 10%;
+	margin: 9% 10%;
+	margin-bottom: 4%;
 	height: 70%;
 	background-color: #FAF2DA;
 	justify-content: center;
@@ -455,6 +467,7 @@
 	}
 	.a-text {
 		font-size: 1.2rem;
+	
 	}
 	.form-box {
 		width: 100%;
@@ -488,6 +501,10 @@
 	}
 	.result-box {
 		text-align: center;
+		margin-top: 3%;
+	}
+	.result-box label{
+		margin : 3%;
 	}
 	.result-txt {
 		font-size: 0.8rem;
@@ -575,8 +592,8 @@
 
 @media ( max-width : 700px) {
 	.test-main-container {
-		width: 70%;
-		margin-top: 18%;
+		width: 80%;
+	height:55%;
 	}
 	.test-main-img {
 		margin: 5% 5%;
@@ -590,7 +607,10 @@
 		margin: 0px;
 	}
 	.test-main-text-box {
-		font-size: 0.74rem;
+		font-size: 0.8rem;
+	}
+	.btn-box{
+		margin-top : 8%;
 	}
 }
 

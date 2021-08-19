@@ -41,14 +41,18 @@
 		<div>
 			<img class="main-img" src="https://ifh.cc/g/Sb439x.png" alt="" />
 			<div class="bg">
+
+				<!-- 상단로고   -->
 				<div class="logo-box">
 					<div>
 						<img src="https://ifh.cc/g/oLyuPg.png" alt="" />
 					</div>
 					<div>
-						<img src="https://ifh.cc/g/b2qOxU.png" alt="" />
+						<img src="https://ifh.cc/g/XGTxhD.png" alt="" />
 					</div>
 				</div>
+
+				<!-- 상단로고   끝-->
 
 
 
@@ -60,6 +64,8 @@
 
 							<div class="form-content-container">
 								<div class="form-content-box">
+
+									<!-- 테스트 결과 페이지-->
 									<div class="hidden result-box">
 										<div class="hidden">
 											마카롱
@@ -226,7 +232,9 @@
 
 
 									</div>
+									<!-- 테스트 결과 페이지 끝-->
 
+									<!-- 테스트 질문 페이지-->
 									<form class="form-1 hidden"
 										onsubmit="Form1__next(this); return false;">
 										<fieldset class="q1-fieldset active">
@@ -380,15 +388,19 @@
 
 										</fieldset>
 
-
+										<!-- 테스트 질문 페이지에서 결과페이지로 이동 버튼-->
 
 										<div class="btn-box">
-										
+
 											<button onclick="Form1__prev(this);" type="button"
 												class="btn btn-disabled btn-prev">이전</button>
 											<button type="submit" class="btn btn-next">다음</button>
 										</div>
+
+										<!-- 테스트 질문 페이지에서 결과페이지로 이동 버튼 끝-->
 									</form>
+
+									<!-- 테스트 질문 페이지 끝-->
 								</div>
 
 							</div>

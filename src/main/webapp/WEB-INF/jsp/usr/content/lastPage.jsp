@@ -35,35 +35,46 @@
 <body>
 	<div class="img-container">
 		<div>
+
+			<!-- 공통 배경이미지  -->
 			<img class="main-img" src="https://ifh.cc/g/Sb439x.png" alt="" />
 			<div class="bg">
+				<!-- 공통 배경이미지  끝-->
+				<!-- 상단로고   -->
 				<div class="logo-box">
 					<div>
 						<img src="https://ifh.cc/g/oLyuPg.png" alt="" />
 					</div>
 					<div>
-						<img src="https://ifh.cc/g/b2qOxU.png" alt="" />
+						<img src="https://ifh.cc/g/XGTxhD.png" alt="" />
 					</div>
 				</div>
+				<!-- 상단로고   끝-->
+
+
+				<!-- 마지막페이지 내용  -->
 				<div class="lastpage-body-container">
 					<div class="lastpage-body">
+
+						<!-- 마지막페이지 내용 이미지  -->
 						<div class="lastpage-img-box">
-							<img src="https://ifh.cc/g/VienfL.png" alt="" /> 
+							<img src="https://ifh.cc/g/VienfL.png" alt="" />
 						</div>
+						<!-- 마지막페이지 내용 이미지  끝-->
 						<div class="lastpage-text-box">
 
 							<span>저희가 준비한 컨텐츠는 여기까지 입니다!</span> <span>부족하지만 끝까지 봐주셔서
 								감사합니다!</span> <span>무단투기 근절 함께 해주실꺼죠?^^ </span> <span>아래 링크로 가서
-								퀴즈를 풀어보세요!</span> <span> 추첨을 통해서 선물을 드립니다!</span><a href=""> <span class="quiz-link">퀴즈 풀러
-									가기!</span></a>
+								퀴즈를 풀어보세요!</span> <span> 추첨을 통해서 선물을 드립니다!</span><a href="https://docs.google.com/forms/d/e/1FAIpQLScx9CZ3c7KfshZsm_lSOFe7_dYMnIRFTz_kZ1lklBRnGlClOA/viewform"> <span
+								class="quiz-link">퀴즈 풀러 가기!</span></a>
 						</div>
 
-					
+
 
 					</div>
 
 				</div>
-
+				<!-- 마지막페이지 내용  끝-->
 
 			</div>
 		</div>

@@ -37,18 +37,26 @@
 		<div>
 			<img class="main-img" src="https://ifh.cc/g/Sb439x.png" alt="" />
 			<div class="bg">
+
+				<!-- 상단로고   -->
 				<div class="logo-box">
 					<div>
 						<img src="https://ifh.cc/g/oLyuPg.png" alt="" />
 					</div>
 					<div>
-						<img src="https://ifh.cc/g/b2qOxU.png" alt="" />
+						<img src="https://ifh.cc/g/XGTxhD.png" alt="" />
 					</div>
 				</div>
+
+				<!-- 상단로고   끝-->
+				<!-- 뒤로가기 버튼 -->
 				<div class="back-button">
 					<a href="/usr/content/list"><img
 						src="https://ifh.cc/g/JFZ8g1.png" alt="" /></a>
 				</div>
+				<!-- 뒤로가기 버튼 끝-->
+
+				<!-- 유튜브 화면 -->
 				<div class="video-container">
 					<div class="video-box">
 						<iframe class="video-content" width="1120" height="630"
@@ -58,6 +66,7 @@
 							allowfullscreen></iframe>
 					</div>
 				</div>
+				<!-- 유튜브 화면 끝-->
 			</div>
 		</div>
 	</div>

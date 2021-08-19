@@ -123,10 +123,5 @@ public class UsrController {
 		return "/usr/content/lastPage";
 		
 	}
-	@RequestMapping("/usr/content/index")
-	public String showindex() {
-		
-		return "/usr/content/index";
-		
-	}
+
 }

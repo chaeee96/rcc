@@ -1,3 +1,5 @@
+//테스트 결과 페이지 
+
 console.clear();
 function Form1__next(form) {
 	const $form = $(form);
@@ -50,7 +52,7 @@ function Form1__next(form) {
 		return;
 	}
 
-	if (confirm('설문을 마치시겠습니까?')) {
+	if (confirm('질문지 결과를 보시겠습니까?')) {
 		form.submit();
 	}
 }
@@ -118,66 +120,69 @@ else {
 	$('.form-1').removeClass('hidden');
 }
 
-//다음페이지 조건 검사 
+//테스트 결과 페이지 끝 
+
+//다음페이지 조건 검사 (동영상 리스트페이지)
 
 function saveVisitLog(pageName) {
-  localStorage.setItem(pageName, true);
+	localStorage.setItem(pageName, true);
 }
 
 function btnGoLastButtonVisible() {
-  const keys = ["list1", "list2", "list3", "list4", "list5", "list6"];
+	const keys = ["list1", "list2", "list3", "list4", "list5", "list6"];
 
-  for (key of keys) {
-    if (localStorage.getItem(key) !== "true") {
-      return false;
-    }
-  }
+	for (key of keys) {
+		if (localStorage.getItem(key) !== "true") {
+			return false;
+		}
+	}
 
-  return true;
+	return true;
 }
 
 function Page__init() {
-  $(".btn-go-next-page").click(function () {
-    if (!btnGoLastButtonVisible()) {
-      alert("아직 보지 않은 영상이 있습니다!");
+	$(".btn-go-next-page").click(function() {
+		if (!btnGoLastButtonVisible()) {
+			alert("아직 보지 않은 영상이 있습니다!");
 
-      return false;
-    }
-  });
+			return false;
+		}
+	});
 }
 
-$(function () {
-  Page__init();
+$(function() {
+	Page__init();
 });
-
+//다음페이지 조건 검사 (동영상 리스트페이지) 끝
+//다음페이지 조건 검사 (지도 페이지)
 
 function saveVisitLog2(pageName) {
-  localStorage.setItem(pageName, true);
+	localStorage.setItem(pageName, true);
 }
 
 function btnGoLastButtonVisible2() {
-  const keys = ["mapsub1", "mapsub2", "mapsub3", "mapsub4", "mapsub5"];
+	const keys = ["mapsub1", "mapsub2", "mapsub3", "mapsub4", "mapsub5"];
 
-  for (key of keys) {
-    if (localStorage.getItem(key) !== "true") {
-      return false;
-    }
-  }
+	for (key of keys) {
+		if (localStorage.getItem(key) !== "true") {
+			return false;
+		}
+	}
 
-  return true;
+	return true;
 }
 
 function Page__init2() {
-  $(".btn-go-last-page").click(function () {
-    if (!btnGoLastButtonVisible2()) {
-      alert("아직 듣지 못한 상인분의 이야기가 있습니다!");
-      return false;
-    }
-  });
+	$(".btn-go-last-page").click(function() {
+		if (!btnGoLastButtonVisible2()) {
+			alert("아직 듣지 못한 상인분의 이야기가 있습니다!");
+			return false;
+		}
+	});
 }
 
-$(function () {
-  Page__init2();
+$(function() {
+	Page__init2();
 });
 
-
+//다음페이지 조건 검사끝 (지도 페이지)

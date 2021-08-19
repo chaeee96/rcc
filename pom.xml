@@ -11,9 +11,12 @@
 	<groupId>com.chae.prac</groupId>
 	<artifactId>chaechae</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>rcc</name>
 	<description>chaechae</description>
+	
+
+	
 	<properties>
 		<java.version>11</java.version>
 	</properties>
